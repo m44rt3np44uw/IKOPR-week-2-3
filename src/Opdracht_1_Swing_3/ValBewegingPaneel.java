@@ -66,7 +66,9 @@ public class ValBewegingPaneel extends JPanel
       
       g.setColor (Color.BLUE);     
       g.drawString ("0", startX - 10, startY + 10);
-      
+      g.drawString("y = 100.0 m", startX, eindY + 20);
+      g.drawString("x = 100.0 m", eindX - 75, startY - 10);
+
    }
 
    // start getters
